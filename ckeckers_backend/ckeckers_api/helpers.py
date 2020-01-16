@@ -3,6 +3,9 @@ import uuid
 
 from .models import Users
 
+import logging
+logger = logging.getLogger('myproject.custom')
+
 def authenticate(username, password):
     if not Users.objects.filter(username=username, sha256_password=password).exists():
         return None, None
@@ -40,11 +43,14 @@ def get_username(request):
 
 def check_login(request):
     session_id = get_session_id(request)
+    logger.info(session_id)
     if session_id is None or session_id == 'None':
         return False
     username = get_username(request)
+    logger.info(username)
     if username is None:
         return False
+    logger.info(Users.objects.filter(username=username, user_actual_session_id=session_id).exists())
     if Users.objects.filter(username=username, user_actual_session_id=session_id).exists():
         return True
     return False

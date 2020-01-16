@@ -1056,3 +1056,424 @@ created table
 [(5;0) - 0 k:False, (5;1) - 1 k:False, (5;2) - 0 k:False, (5;3) - 0 k:False, (5;4) - 0 k:False, (5;5) - 0 k:False, (5;6) - 0 k:False, (5;7) - 2 k:False]
 [(6;0) - 1 k:False, (6;1) - 0 k:False, (6;2) - 1 k:False, (6;3) - 0 k:False, (6;4) - 0 k:False, (6;5) - 0 k:False, (6;6) - 2 k:False, (6;7) - 0 k:False]
 [(7;0) - 0 k:False, (7;1) - 1 k:False, (7;2) - 0 k:False, (7;3) - 0 k:False, (7;4) - 0 k:False, (7;5) - 2 k:False, (7;6) - 0 k:False, (7;7) - 2 k:False]
+bodyb'{"username":"alex"}'
+bodyb'{"username":"alex"}'
+bodyb'{"username":"test"}'
+bodyb'{}'
+bodyb'{}'
+bodyb'{}'
+bodyb'{"username":"alex"}'
+bodyb'{"username":"test"}'
+bodyb'{"username":"alex"}'
+bodyb'{"username":"test"}'
+bodyb'{"username":"q"}'
+bodyb'{"username":"alex"}'
+1
+1
+created table
+0:0@0#0:2@0#1:1@0#2:0@0#2:2@0#3:1@0#4:0@0#4:2@0#5:1@0#6:0@0#6:2@0#7:1@0
+['0:0@0', '0:2@0', '1:1@0', '2:0@0', '2:2@0', '3:1@0', '4:0@0', '4:2@0', '5:1@0', '6:0@0', '6:2@0', '7:1@0']
+[(0;0) - 0 k:True, (0;2) - 0 k:True, (1;1) - 0 k:True, (2;0) - 0 k:True, (2;2) - 0 k:True, (3;1) - 0 k:True, (4;0) - 0 k:True, (4;2) - 0 k:True, (5;1) - 0 k:True, (6;0) - 0 k:True, (6;2) - 0 k:True, (7;1) - 0 k:True]
+0:6@0#1:5@0#1:7@0#2:6@0#3:5@0#3:7@0#4:6@0#5:5@0#5:7@0#6:6@0#7:5@0#7:7@0
+['0:6@0', '1:5@0', '1:7@0', '2:6@0', '3:5@0', '3:7@0', '4:6@0', '5:5@0', '5:7@0', '6:6@0', '7:5@0', '7:7@0']
+[(0;6) - 0 k:True, (1;5) - 0 k:True, (1;7) - 0 k:True, (2;6) - 0 k:True, (3;5) - 0 k:True, (3;7) - 0 k:True, (4;6) - 0 k:True, (5;5) - 0 k:True, (5;7) - 0 k:True, (6;6) - 0 k:True, (7;5) - 0 k:True, (7;7) - 0 k:True]
+created table
+0:0@0#0:2@0#1:1@0#2:0@0#2:2@0#3:1@0#4:0@0#4:2@0#5:1@0#6:0@0#6:2@0#7:1@0
+['0:0@0', '0:2@0', '1:1@0', '2:0@0', '2:2@0', '3:1@0', '4:0@0', '4:2@0', '5:1@0', '6:0@0', '6:2@0', '7:1@0']
+[(0;0) - 0 k:True, (0;2) - 0 k:True, (1;1) - 0 k:True, (2;0) - 0 k:True, (2;2) - 0 k:True, (3;1) - 0 k:True, (4;0) - 0 k:True, (4;2) - 0 k:True, (5;1) - 0 k:True, (6;0) - 0 k:True, (6;2) - 0 k:True, (7;1) - 0 k:True]
+0:6@0#1:5@0#1:7@0#2:6@0#3:5@0#3:7@0#4:6@0#5:5@0#5:7@0#6:6@0#7:5@0#7:7@0
+['0:6@0', '1:5@0', '1:7@0', '2:6@0', '3:5@0', '3:7@0', '4:6@0', '5:5@0', '5:7@0', '6:6@0', '7:5@0', '7:7@0']
+[(0;6) - 0 k:True, (1;5) - 0 k:True, (1;7) - 0 k:True, (2;6) - 0 k:True, (3;5) - 0 k:True, (3;7) - 0 k:True, (4;6) - 0 k:True, (5;5) - 0 k:True, (5;7) - 0 k:True, (6;6) - 0 k:True, (7;5) - 0 k:True, (7;7) - 0 k:True]
+created table
+0:0@0#0:2@0#1:1@0#2:0@0#2:2@0#3:1@0#4:0@0#4:2@0#5:1@0#6:0@0#6:2@0#7:1@0
+['0:0@0', '0:2@0', '1:1@0', '2:0@0', '2:2@0', '3:1@0', '4:0@0', '4:2@0', '5:1@0', '6:0@0', '6:2@0', '7:1@0']
+[(0;0) - 0 k:True, (0;2) - 0 k:True, (1;1) - 0 k:True, (2;0) - 0 k:True, (2;2) - 0 k:True, (3;1) - 0 k:True, (4;0) - 0 k:True, (4;2) - 0 k:True, (5;1) - 0 k:True, (6;0) - 0 k:True, (6;2) - 0 k:True, (7;1) - 0 k:True]
+0:6@0#1:5@0#1:7@0#2:6@0#3:5@0#3:7@0#4:6@0#5:5@0#5:7@0#6:6@0#7:5@0#7:7@0
+['0:6@0', '1:5@0', '1:7@0', '2:6@0', '3:5@0', '3:7@0', '4:6@0', '5:5@0', '5:7@0', '6:6@0', '7:5@0', '7:7@0']
+[(0;6) - 0 k:True, (1;5) - 0 k:True, (1;7) - 0 k:True, (2;6) - 0 k:True, (3;5) - 0 k:True, (3;7) - 0 k:True, (4;6) - 0 k:True, (5;5) - 0 k:True, (5;7) - 0 k:True, (6;6) - 0 k:True, (7;5) - 0 k:True, (7;7) - 0 k:True]
+created table
+0:0@0#0:2@0#1:1@0#2:0@0#2:2@0#3:1@0#4:0@0#4:2@0#5:1@0#6:0@0#6:2@0#7:1@0
+['0:0@0', '0:2@0', '1:1@0', '2:0@0', '2:2@0', '3:1@0', '4:0@0', '4:2@0', '5:1@0', '6:0@0', '6:2@0', '7:1@0']
+[(0;0) - 0 k:True, (0;2) - 0 k:True, (1;1) - 0 k:True, (2;0) - 0 k:True, (2;2) - 0 k:True, (3;1) - 0 k:True, (4;0) - 0 k:True, (4;2) - 0 k:True, (5;1) - 0 k:True, (6;0) - 0 k:True, (6;2) - 0 k:True, (7;1) - 0 k:True]
+0:6@0#1:5@0#1:7@0#2:6@0#3:5@0#3:7@0#4:6@0#5:5@0#5:7@0#6:6@0#7:5@0#7:7@0
+['0:6@0', '1:5@0', '1:7@0', '2:6@0', '3:5@0', '3:7@0', '4:6@0', '5:5@0', '5:7@0', '6:6@0', '7:5@0', '7:7@0']
+[(0;6) - 0 k:True, (1;5) - 0 k:True, (1;7) - 0 k:True, (2;6) - 0 k:True, (3;5) - 0 k:True, (3;7) - 0 k:True, (4;6) - 0 k:True, (5;5) - 0 k:True, (5;7) - 0 k:True, (6;6) - 0 k:True, (7;5) - 0 k:True, (7;7) - 0 k:True]
+created table
+0:0@0#0:2@0#1:1@0#2:0@0#2:2@0#3:1@0#4:0@0#4:2@0#5:1@0#6:0@0#6:2@0#7:1@0
+['0:0@0', '0:2@0', '1:1@0', '2:0@0', '2:2@0', '3:1@0', '4:0@0', '4:2@0', '5:1@0', '6:0@0', '6:2@0', '7:1@0']
+[(0;0) - 0 k:True, (0;2) - 0 k:True, (1;1) - 0 k:True, (2;0) - 0 k:True, (2;2) - 0 k:True, (3;1) - 0 k:True, (4;0) - 0 k:True, (4;2) - 0 k:True, (5;1) - 0 k:True, (6;0) - 0 k:True, (6;2) - 0 k:True, (7;1) - 0 k:True]
+0:6@0#1:5@0#1:7@0#2:6@0#3:5@0#3:7@0#4:6@0#5:5@0#5:7@0#6:6@0#7:5@0#7:7@0
+['0:6@0', '1:5@0', '1:7@0', '2:6@0', '3:5@0', '3:7@0', '4:6@0', '5:5@0', '5:7@0', '6:6@0', '7:5@0', '7:7@0']
+[(0;6) - 0 k:True, (1;5) - 0 k:True, (1;7) - 0 k:True, (2;6) - 0 k:True, (3;5) - 0 k:True, (3;7) - 0 k:True, (4;6) - 0 k:True, (5;5) - 0 k:True, (5;7) - 0 k:True, (6;6) - 0 k:True, (7;5) - 0 k:True, (7;7) - 0 k:True]
+created table
+0:0@0#0:2@0#1:1@0#2:0@0#2:2@0#3:1@0#4:0@0#4:2@0#5:1@0#6:0@0#6:2@0#7:1@0
+['0:0@0', '0:2@0', '1:1@0', '2:0@0', '2:2@0', '3:1@0', '4:0@0', '4:2@0', '5:1@0', '6:0@0', '6:2@0', '7:1@0']
+[(0;0) - 0 k:True, (0;2) - 0 k:True, (1;1) - 0 k:True, (2;0) - 0 k:True, (2;2) - 0 k:True, (3;1) - 0 k:True, (4;0) - 0 k:True, (4;2) - 0 k:True, (5;1) - 0 k:True, (6;0) - 0 k:True, (6;2) - 0 k:True, (7;1) - 0 k:True]
+0:6@0#1:5@0#1:7@0#2:6@0#3:5@0#3:7@0#4:6@0#5:5@0#5:7@0#6:6@0#7:5@0#7:7@0
+['0:6@0', '1:5@0', '1:7@0', '2:6@0', '3:5@0', '3:7@0', '4:6@0', '5:5@0', '5:7@0', '6:6@0', '7:5@0', '7:7@0']
+[(0;6) - 0 k:True, (1;5) - 0 k:True, (1;7) - 0 k:True, (2;6) - 0 k:True, (3;5) - 0 k:True, (3;7) - 0 k:True, (4;6) - 0 k:True, (5;5) - 0 k:True, (5;7) - 0 k:True, (6;6) - 0 k:True, (7;5) - 0 k:True, (7;7) - 0 k:True]
+created table
+0:0@0#0:2@0#1:1@0#2:0@0#2:2@0#3:1@0#4:0@0#4:2@0#5:1@0#6:0@0#6:2@0#7:1@0
+['0:0@0', '0:2@0', '1:1@0', '2:0@0', '2:2@0', '3:1@0', '4:0@0', '4:2@0', '5:1@0', '6:0@0', '6:2@0', '7:1@0']
+[(0;0) - 0 k:True, (0;2) - 0 k:True, (1;1) - 0 k:True, (2;0) - 0 k:True, (2;2) - 0 k:True, (3;1) - 0 k:True, (4;0) - 0 k:True, (4;2) - 0 k:True, (5;1) - 0 k:True, (6;0) - 0 k:True, (6;2) - 0 k:True, (7;1) - 0 k:True]
+0:6@0#1:5@0#1:7@0#2:6@0#3:5@0#3:7@0#4:6@0#5:5@0#5:7@0#6:6@0#7:5@0#7:7@0
+['0:6@0', '1:5@0', '1:7@0', '2:6@0', '3:5@0', '3:7@0', '4:6@0', '5:5@0', '5:7@0', '6:6@0', '7:5@0', '7:7@0']
+[(0;6) - 0 k:True, (1;5) - 0 k:True, (1;7) - 0 k:True, (2;6) - 0 k:True, (3;5) - 0 k:True, (3;7) - 0 k:True, (4;6) - 0 k:True, (5;5) - 0 k:True, (5;7) - 0 k:True, (6;6) - 0 k:True, (7;5) - 0 k:True, (7;7) - 0 k:True]
+undefined
+undefined
+False
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+created table
+0:0@0#0:2@0#1:1@0#2:0@0#2:2@0#3:1@0#4:0@0#4:2@0#5:1@0#6:0@0#6:2@0#7:1@0
+['0:0@0', '0:2@0', '1:1@0', '2:0@0', '2:2@0', '3:1@0', '4:0@0', '4:2@0', '5:1@0', '6:0@0', '6:2@0', '7:1@0']
+[(0;0) - 0 k:True, (0;2) - 0 k:True, (1;1) - 0 k:True, (2;0) - 0 k:True, (2;2) - 0 k:True, (3;1) - 0 k:True, (4;0) - 0 k:True, (4;2) - 0 k:True, (5;1) - 0 k:True, (6;0) - 0 k:True, (6;2) - 0 k:True, (7;1) - 0 k:True]
+0:6@0#1:5@0#1:7@0#2:6@0#3:5@0#3:7@0#4:6@0#5:5@0#5:7@0#6:6@0#7:5@0#7:7@0
+['0:6@0', '1:5@0', '1:7@0', '2:6@0', '3:5@0', '3:7@0', '4:6@0', '5:5@0', '5:7@0', '6:6@0', '7:5@0', '7:7@0']
+[(0;6) - 0 k:True, (1;5) - 0 k:True, (1;7) - 0 k:True, (2;6) - 0 k:True, (3;5) - 0 k:True, (3;7) - 0 k:True, (4;6) - 0 k:True, (5;5) - 0 k:True, (5;7) - 0 k:True, (6;6) - 0 k:True, (7;5) - 0 k:True, (7;7) - 0 k:True]
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+created table
+0:0@0#0:2@0#1:1@0#2:0@0#2:2@0#3:1@0#4:0@0#4:2@0#5:1@0#6:0@0#6:2@0#7:1@0
+['0:0@0', '0:2@0', '1:1@0', '2:0@0', '2:2@0', '3:1@0', '4:0@0', '4:2@0', '5:1@0', '6:0@0', '6:2@0', '7:1@0']
+[(0;0) - 0 k:True, (0;2) - 0 k:True, (1;1) - 0 k:True, (2;0) - 0 k:True, (2;2) - 0 k:True, (3;1) - 0 k:True, (4;0) - 0 k:True, (4;2) - 0 k:True, (5;1) - 0 k:True, (6;0) - 0 k:True, (6;2) - 0 k:True, (7;1) - 0 k:True]
+0:6@0#1:5@0#1:7@0#2:6@0#3:5@0#3:7@0#4:6@0#5:5@0#5:7@0#6:6@0#7:5@0#7:7@0
+['0:6@0', '1:5@0', '1:7@0', '2:6@0', '3:5@0', '3:7@0', '4:6@0', '5:5@0', '5:7@0', '6:6@0', '7:5@0', '7:7@0']
+[(0;6) - 0 k:True, (1;5) - 0 k:True, (1;7) - 0 k:True, (2;6) - 0 k:True, (3;5) - 0 k:True, (3;7) - 0 k:True, (4;6) - 0 k:True, (5;5) - 0 k:True, (5;7) - 0 k:True, (6;6) - 0 k:True, (7;5) - 0 k:True, (7;7) - 0 k:True]
+
+[(0;0) - 1 k:False, (0;1) - 0 k:False, (0;2) - 1 k:False, (0;3) - 0 k:False, (0;4) - 0 k:False, (0;5) - 0 k:False, (0;6) - 2 k:False, (0;7) - 0 k:False]
+[(1;0) - 0 k:False, (1;1) - 1 k:False, (1;2) - 0 k:False, (1;3) - 0 k:False, (1;4) - 0 k:False, (1;5) - 2 k:False, (1;6) - 0 k:False, (1;7) - 2 k:False]
+[(2;0) - 1 k:False, (2;1) - 0 k:False, (2;2) - 1 k:False, (2;3) - 0 k:False, (2;4) - 0 k:False, (2;5) - 0 k:False, (2;6) - 2 k:False, (2;7) - 0 k:False]
+[(3;0) - 0 k:False, (3;1) - 1 k:False, (3;2) - 0 k:False, (3;3) - 0 k:False, (3;4) - 0 k:False, (3;5) - 2 k:False, (3;6) - 0 k:False, (3;7) - 2 k:False]
+[(4;0) - 1 k:False, (4;1) - 0 k:False, (4;2) - 1 k:False, (4;3) - 0 k:False, (4;4) - 0 k:False, (4;5) - 0 k:False, (4;6) - 2 k:False, (4;7) - 0 k:False]
+[(5;0) - 0 k:False, (5;1) - 1 k:False, (5;2) - 0 k:False, (5;3) - 0 k:False, (5;4) - 0 k:False, (5;5) - 2 k:False, (5;6) - 0 k:False, (5;7) - 2 k:False]
+[(6;0) - 1 k:False, (6;1) - 0 k:False, (6;2) - 1 k:False, (6;3) - 0 k:False, (6;4) - 0 k:False, (6;5) - 0 k:False, (6;6) - 2 k:False, (6;7) - 0 k:False]
+[(7;0) - 0 k:False, (7;1) - 1 k:False, (7;2) - 0 k:False, (7;3) - 0 k:False, (7;4) - 0 k:False, (7;5) - 2 k:False, (7;6) - 0 k:False, (7;7) - 2 k:False]
+[]
+{'size': 8, 'table': [[(0;0) - 1 k:False, (0;1) - 0 k:False, (0;2) - 1 k:False, (0;3) - 0 k:False, (0;4) - 0 k:False, (0;5) - 0 k:False, (0;6) - 2 k:False, (0;7) - 0 k:False], [(1;0) - 0 k:False, (1;1) - 1 k:False, (1;2) - 0 k:False, (1;3) - 0 k:False, (1;4) - 0 k:False, (1;5) - 2 k:False, (1;6) - 0 k:False, (1;7) - 2 k:False], [(2;0) - 1 k:False, (2;1) - 0 k:False, (2;2) - 0 k:False, (2;3) - 0 k:False, (2;4) - 0 k:False, (2;5) - 0 k:False, (2;6) - 2 k:False, (2;7) - 0 k:False], [(3;0) - 0 k:False, (3;1) - 1 k:False, (3;2) - 0 k:False, (3;3) - 1 k:False, (3;4) - 0 k:False, (3;5) - 2 k:False, (3;6) - 0 k:False, (3;7) - 2 k:False], [(4;0) - 1 k:False, (4;1) - 0 k:False, (4;2) - 1 k:False, (4;3) - 0 k:False, (4;4) - 0 k:False, (4;5) - 0 k:False, (4;6) - 2 k:False, (4;7) - 0 k:False], [(5;0) - 0 k:False, (5;1) - 1 k:False, (5;2) - 0 k:False, (5;3) - 0 k:False, (5;4) - 0 k:False, (5;5) - 2 k:False, (5;6) - 0 k:False, (5;7) - 2 k:False], [(6;0) - 1 k:False, (6;1) - 0 k:False, (6;2) - 1 k:False, (6;3) - 0 k:False, (6;4) - 0 k:False, (6;5) - 0 k:False, (6;6) - 2 k:False, (6;7) - 0 k:False], [(7;0) - 0 k:False, (7;1) - 1 k:False, (7;2) - 0 k:False, (7;3) - 0 k:False, (7;4) - 0 k:False, (7;5) - 2 k:False, (7;6) - 0 k:False, (7;7) - 2 k:False]], 'turn': 2}
+[(0;0) - 1 k:False, (0;1) - 0 k:False, (0;2) - 1 k:False, (0;3) - 0 k:False, (0;4) - 0 k:False, (0;5) - 0 k:False, (0;6) - 2 k:False, (0;7) - 0 k:False]
+[(1;0) - 0 k:False, (1;1) - 1 k:False, (1;2) - 0 k:False, (1;3) - 0 k:False, (1;4) - 0 k:False, (1;5) - 2 k:False, (1;6) - 0 k:False, (1;7) - 2 k:False]
+[(2;0) - 1 k:False, (2;1) - 0 k:False, (2;2) - 0 k:False, (2;3) - 0 k:False, (2;4) - 0 k:False, (2;5) - 0 k:False, (2;6) - 2 k:False, (2;7) - 0 k:False]
+[(3;0) - 0 k:False, (3;1) - 1 k:False, (3;2) - 0 k:False, (3;3) - 1 k:False, (3;4) - 0 k:False, (3;5) - 2 k:False, (3;6) - 0 k:False, (3;7) - 2 k:False]
+[(4;0) - 1 k:False, (4;1) - 0 k:False, (4;2) - 1 k:False, (4;3) - 0 k:False, (4;4) - 0 k:False, (4;5) - 0 k:False, (4;6) - 2 k:False, (4;7) - 0 k:False]
+[(5;0) - 0 k:False, (5;1) - 1 k:False, (5;2) - 0 k:False, (5;3) - 0 k:False, (5;4) - 0 k:False, (5;5) - 2 k:False, (5;6) - 0 k:False, (5;7) - 2 k:False]
+[(6;0) - 1 k:False, (6;1) - 0 k:False, (6;2) - 1 k:False, (6;3) - 0 k:False, (6;4) - 0 k:False, (6;5) - 0 k:False, (6;6) - 2 k:False, (6;7) - 0 k:False]
+[(7;0) - 0 k:False, (7;1) - 1 k:False, (7;2) - 0 k:False, (7;3) - 0 k:False, (7;4) - 0 k:False, (7;5) - 2 k:False, (7;6) - 0 k:False, (7;7) - 2 k:False]
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+created table
+0:0@0#0:2@0#1:1@0#2:0@0#3:1@0#3:3@0#4:0@0#4:2@0#5:1@0#6:0@0#6:2@0#7:1@0
+['0:0@0', '0:2@0', '1:1@0', '2:0@0', '3:1@0', '3:3@0', '4:0@0', '4:2@0', '5:1@0', '6:0@0', '6:2@0', '7:1@0']
+[(0;0) - 0 k:True, (0;2) - 0 k:True, (1;1) - 0 k:True, (2;0) - 0 k:True, (3;1) - 0 k:True, (3;3) - 0 k:True, (4;0) - 0 k:True, (4;2) - 0 k:True, (5;1) - 0 k:True, (6;0) - 0 k:True, (6;2) - 0 k:True, (7;1) - 0 k:True]
+0:6@0#1:5@0#1:7@0#2:6@0#3:5@0#3:7@0#4:6@0#5:5@0#5:7@0#6:6@0#7:5@0#7:7@0
+['0:6@0', '1:5@0', '1:7@0', '2:6@0', '3:5@0', '3:7@0', '4:6@0', '5:5@0', '5:7@0', '6:6@0', '7:5@0', '7:7@0']
+[(0;6) - 0 k:True, (1;5) - 0 k:True, (1;7) - 0 k:True, (2;6) - 0 k:True, (3;5) - 0 k:True, (3;7) - 0 k:True, (4;6) - 0 k:True, (5;5) - 0 k:True, (5;7) - 0 k:True, (6;6) - 0 k:True, (7;5) - 0 k:True, (7;7) - 0 k:True]
+e1cd541e-edcd-4dd2-9e7e-31dbdcc67b57
+test
+True
+created table
+0:0@0#0:2@0#1:1@0#2:0@0#3:1@0#3:3@0#4:0@0#4:2@0#5:1@0#6:0@0#6:2@0#7:1@0
+['0:0@0', '0:2@0', '1:1@0', '2:0@0', '3:1@0', '3:3@0', '4:0@0', '4:2@0', '5:1@0', '6:0@0', '6:2@0', '7:1@0']
+[(0;0) - 0 k:True, (0;2) - 0 k:True, (1;1) - 0 k:True, (2;0) - 0 k:True, (3;1) - 0 k:True, (3;3) - 0 k:True, (4;0) - 0 k:True, (4;2) - 0 k:True, (5;1) - 0 k:True, (6;0) - 0 k:True, (6;2) - 0 k:True, (7;1) - 0 k:True]
+0:6@0#1:5@0#1:7@0#2:6@0#3:5@0#3:7@0#4:6@0#5:5@0#5:7@0#6:6@0#7:5@0#7:7@0
+['0:6@0', '1:5@0', '1:7@0', '2:6@0', '3:5@0', '3:7@0', '4:6@0', '5:5@0', '5:7@0', '6:6@0', '7:5@0', '7:7@0']
+[(0;6) - 0 k:True, (1;5) - 0 k:True, (1;7) - 0 k:True, (2;6) - 0 k:True, (3;5) - 0 k:True, (3;7) - 0 k:True, (4;6) - 0 k:True, (5;5) - 0 k:True, (5;7) - 0 k:True, (6;6) - 0 k:True, (7;5) - 0 k:True, (7;7) - 0 k:True]
+e1cd541e-edcd-4dd2-9e7e-31dbdcc67b57
+test
+True
+created table
+0:0@0#0:2@0#1:1@0#2:0@0#3:1@0#3:3@0#4:0@0#4:2@0#5:1@0#6:0@0#6:2@0#7:1@0
+['0:0@0', '0:2@0', '1:1@0', '2:0@0', '3:1@0', '3:3@0', '4:0@0', '4:2@0', '5:1@0', '6:0@0', '6:2@0', '7:1@0']
+[(0;0) - 0 k:True, (0;2) - 0 k:True, (1;1) - 0 k:True, (2;0) - 0 k:True, (3;1) - 0 k:True, (3;3) - 0 k:True, (4;0) - 0 k:True, (4;2) - 0 k:True, (5;1) - 0 k:True, (6;0) - 0 k:True, (6;2) - 0 k:True, (7;1) - 0 k:True]
+0:6@0#1:5@0#1:7@0#2:6@0#3:5@0#3:7@0#4:6@0#5:5@0#5:7@0#6:6@0#7:5@0#7:7@0
+['0:6@0', '1:5@0', '1:7@0', '2:6@0', '3:5@0', '3:7@0', '4:6@0', '5:5@0', '5:7@0', '6:6@0', '7:5@0', '7:7@0']
+[(0;6) - 0 k:True, (1;5) - 0 k:True, (1;7) - 0 k:True, (2;6) - 0 k:True, (3;5) - 0 k:True, (3;7) - 0 k:True, (4;6) - 0 k:True, (5;5) - 0 k:True, (5;7) - 0 k:True, (6;6) - 0 k:True, (7;5) - 0 k:True, (7;7) - 0 k:True]
+
+[(0;0) - 1 k:False, (0;1) - 0 k:False, (0;2) - 1 k:False, (0;3) - 0 k:False, (0;4) - 0 k:False, (0;5) - 0 k:False, (0;6) - 2 k:False, (0;7) - 0 k:False]
+[(1;0) - 0 k:False, (1;1) - 1 k:False, (1;2) - 0 k:False, (1;3) - 0 k:False, (1;4) - 0 k:False, (1;5) - 2 k:False, (1;6) - 0 k:False, (1;7) - 2 k:False]
+[(2;0) - 1 k:False, (2;1) - 0 k:False, (2;2) - 0 k:False, (2;3) - 0 k:False, (2;4) - 0 k:False, (2;5) - 0 k:False, (2;6) - 2 k:False, (2;7) - 0 k:False]
+[(3;0) - 0 k:False, (3;1) - 1 k:False, (3;2) - 0 k:False, (3;3) - 1 k:False, (3;4) - 0 k:False, (3;5) - 2 k:False, (3;6) - 0 k:False, (3;7) - 2 k:False]
+[(4;0) - 1 k:False, (4;1) - 0 k:False, (4;2) - 1 k:False, (4;3) - 0 k:False, (4;4) - 0 k:False, (4;5) - 0 k:False, (4;6) - 2 k:False, (4;7) - 0 k:False]
+[(5;0) - 0 k:False, (5;1) - 1 k:False, (5;2) - 0 k:False, (5;3) - 0 k:False, (5;4) - 0 k:False, (5;5) - 2 k:False, (5;6) - 0 k:False, (5;7) - 2 k:False]
+[(6;0) - 1 k:False, (6;1) - 0 k:False, (6;2) - 1 k:False, (6;3) - 0 k:False, (6;4) - 0 k:False, (6;5) - 0 k:False, (6;6) - 2 k:False, (6;7) - 0 k:False]
+[(7;0) - 0 k:False, (7;1) - 1 k:False, (7;2) - 0 k:False, (7;3) - 0 k:False, (7;4) - 0 k:False, (7;5) - 2 k:False, (7;6) - 0 k:False, (7;7) - 2 k:False]
+[]
+{'size': 8, 'table': [[(0;0) - 1 k:False, (0;1) - 0 k:False, (0;2) - 1 k:False, (0;3) - 0 k:False, (0;4) - 0 k:False, (0;5) - 0 k:False, (0;6) - 2 k:False, (0;7) - 0 k:False], [(1;0) - 0 k:False, (1;1) - 1 k:False, (1;2) - 0 k:False, (1;3) - 0 k:False, (1;4) - 0 k:False, (1;5) - 2 k:False, (1;6) - 0 k:False, (1;7) - 2 k:False], [(2;0) - 1 k:False, (2;1) - 0 k:False, (2;2) - 0 k:False, (2;3) - 0 k:False, (2;4) - 2 k:False, (2;5) - 0 k:False, (2;6) - 2 k:False, (2;7) - 0 k:False], [(3;0) - 0 k:False, (3;1) - 1 k:False, (3;2) - 0 k:False, (3;3) - 1 k:False, (3;4) - 0 k:False, (3;5) - 0 k:False, (3;6) - 0 k:False, (3;7) - 2 k:False], [(4;0) - 1 k:False, (4;1) - 0 k:False, (4;2) - 1 k:False, (4;3) - 0 k:False, (4;4) - 0 k:False, (4;5) - 0 k:False, (4;6) - 2 k:False, (4;7) - 0 k:False], [(5;0) - 0 k:False, (5;1) - 1 k:False, (5;2) - 0 k:False, (5;3) - 0 k:False, (5;4) - 0 k:False, (5;5) - 2 k:False, (5;6) - 0 k:False, (5;7) - 2 k:False], [(6;0) - 1 k:False, (6;1) - 0 k:False, (6;2) - 1 k:False, (6;3) - 0 k:False, (6;4) - 0 k:False, (6;5) - 0 k:False, (6;6) - 2 k:False, (6;7) - 0 k:False], [(7;0) - 0 k:False, (7;1) - 1 k:False, (7;2) - 0 k:False, (7;3) - 0 k:False, (7;4) - 0 k:False, (7;5) - 2 k:False, (7;6) - 0 k:False, (7;7) - 2 k:False]], 'turn': 1}
+[(0;0) - 1 k:False, (0;1) - 0 k:False, (0;2) - 1 k:False, (0;3) - 0 k:False, (0;4) - 0 k:False, (0;5) - 0 k:False, (0;6) - 2 k:False, (0;7) - 0 k:False]
+[(1;0) - 0 k:False, (1;1) - 1 k:False, (1;2) - 0 k:False, (1;3) - 0 k:False, (1;4) - 0 k:False, (1;5) - 2 k:False, (1;6) - 0 k:False, (1;7) - 2 k:False]
+[(2;0) - 1 k:False, (2;1) - 0 k:False, (2;2) - 0 k:False, (2;3) - 0 k:False, (2;4) - 2 k:False, (2;5) - 0 k:False, (2;6) - 2 k:False, (2;7) - 0 k:False]
+[(3;0) - 0 k:False, (3;1) - 1 k:False, (3;2) - 0 k:False, (3;3) - 1 k:False, (3;4) - 0 k:False, (3;5) - 0 k:False, (3;6) - 0 k:False, (3;7) - 2 k:False]
+[(4;0) - 1 k:False, (4;1) - 0 k:False, (4;2) - 1 k:False, (4;3) - 0 k:False, (4;4) - 0 k:False, (4;5) - 0 k:False, (4;6) - 2 k:False, (4;7) - 0 k:False]
+[(5;0) - 0 k:False, (5;1) - 1 k:False, (5;2) - 0 k:False, (5;3) - 0 k:False, (5;4) - 0 k:False, (5;5) - 2 k:False, (5;6) - 0 k:False, (5;7) - 2 k:False]
+[(6;0) - 1 k:False, (6;1) - 0 k:False, (6;2) - 1 k:False, (6;3) - 0 k:False, (6;4) - 0 k:False, (6;5) - 0 k:False, (6;6) - 2 k:False, (6;7) - 0 k:False]
+[(7;0) - 0 k:False, (7;1) - 1 k:False, (7;2) - 0 k:False, (7;3) - 0 k:False, (7;4) - 0 k:False, (7;5) - 2 k:False, (7;6) - 0 k:False, (7;7) - 2 k:False]
+e1cd541e-edcd-4dd2-9e7e-31dbdcc67b57
+test
+True
+created table
+0:0@0#0:2@0#1:1@0#2:0@0#3:1@0#3:3@0#4:0@0#4:2@0#5:1@0#6:0@0#6:2@0#7:1@0
+['0:0@0', '0:2@0', '1:1@0', '2:0@0', '3:1@0', '3:3@0', '4:0@0', '4:2@0', '5:1@0', '6:0@0', '6:2@0', '7:1@0']
+[(0;0) - 0 k:True, (0;2) - 0 k:True, (1;1) - 0 k:True, (2;0) - 0 k:True, (3;1) - 0 k:True, (3;3) - 0 k:True, (4;0) - 0 k:True, (4;2) - 0 k:True, (5;1) - 0 k:True, (6;0) - 0 k:True, (6;2) - 0 k:True, (7;1) - 0 k:True]
+0:6@0#1:5@0#1:7@0#2:4@0#2:6@0#3:7@0#4:6@0#5:5@0#5:7@0#6:6@0#7:5@0#7:7@0
+['0:6@0', '1:5@0', '1:7@0', '2:4@0', '2:6@0', '3:7@0', '4:6@0', '5:5@0', '5:7@0', '6:6@0', '7:5@0', '7:7@0']
+[(0;6) - 0 k:True, (1;5) - 0 k:True, (1;7) - 0 k:True, (2;4) - 0 k:True, (2;6) - 0 k:True, (3;7) - 0 k:True, (4;6) - 0 k:True, (5;5) - 0 k:True, (5;7) - 0 k:True, (6;6) - 0 k:True, (7;5) - 0 k:True, (7;7) - 0 k:True]
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+undefined
+undefined
+False
+undefined
+undefined
+False
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+created table
+0:0@0#0:2@0#1:1@0#2:0@0#3:1@0#3:3@0#4:0@0#4:2@0#5:1@0#6:0@0#6:2@0#7:1@0
+['0:0@0', '0:2@0', '1:1@0', '2:0@0', '3:1@0', '3:3@0', '4:0@0', '4:2@0', '5:1@0', '6:0@0', '6:2@0', '7:1@0']
+[(0;0) - 0 k:True, (0;2) - 0 k:True, (1;1) - 0 k:True, (2;0) - 0 k:True, (3;1) - 0 k:True, (3;3) - 0 k:True, (4;0) - 0 k:True, (4;2) - 0 k:True, (5;1) - 0 k:True, (6;0) - 0 k:True, (6;2) - 0 k:True, (7;1) - 0 k:True]
+0:6@0#1:5@0#1:7@0#2:4@0#2:6@0#3:7@0#4:6@0#5:5@0#5:7@0#6:6@0#7:5@0#7:7@0
+['0:6@0', '1:5@0', '1:7@0', '2:4@0', '2:6@0', '3:7@0', '4:6@0', '5:5@0', '5:7@0', '6:6@0', '7:5@0', '7:7@0']
+[(0;6) - 0 k:True, (1;5) - 0 k:True, (1;7) - 0 k:True, (2;4) - 0 k:True, (2;6) - 0 k:True, (3;7) - 0 k:True, (4;6) - 0 k:True, (5;5) - 0 k:True, (5;7) - 0 k:True, (6;6) - 0 k:True, (7;5) - 0 k:True, (7;7) - 0 k:True]
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True
+created table
+0:0@0#0:2@0#1:1@0#2:0@0#3:1@0#3:3@0#4:0@0#4:2@0#5:1@0#6:0@0#6:2@0#7:1@0
+['0:0@0', '0:2@0', '1:1@0', '2:0@0', '3:1@0', '3:3@0', '4:0@0', '4:2@0', '5:1@0', '6:0@0', '6:2@0', '7:1@0']
+[(0;0) - 0 k:True, (0;2) - 0 k:True, (1;1) - 0 k:True, (2;0) - 0 k:True, (3;1) - 0 k:True, (3;3) - 0 k:True, (4;0) - 0 k:True, (4;2) - 0 k:True, (5;1) - 0 k:True, (6;0) - 0 k:True, (6;2) - 0 k:True, (7;1) - 0 k:True]
+0:6@0#1:5@0#1:7@0#2:4@0#2:6@0#3:7@0#4:6@0#5:5@0#5:7@0#6:6@0#7:5@0#7:7@0
+['0:6@0', '1:5@0', '1:7@0', '2:4@0', '2:6@0', '3:7@0', '4:6@0', '5:5@0', '5:7@0', '6:6@0', '7:5@0', '7:7@0']
+[(0;6) - 0 k:True, (1;5) - 0 k:True, (1;7) - 0 k:True, (2;4) - 0 k:True, (2;6) - 0 k:True, (3;7) - 0 k:True, (4;6) - 0 k:True, (5;5) - 0 k:True, (5;7) - 0 k:True, (6;6) - 0 k:True, (7;5) - 0 k:True, (7;7) - 0 k:True]
+undefined
+undefined
+False
+undefined
+undefined
+False
+undefined
+undefined
+False
+0a9d5d7c-3c44-4db4-9485-a959c20db995
+alex
+True

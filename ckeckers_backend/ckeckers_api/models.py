@@ -1,17 +1,5 @@
 from django.db import models
 
-
-class Riddle(models.Model):
-    riddle_text = models.CharField(max_length=255)
-    pub_date = models.DateTimeField('date published')
-
-
-class Option(models.Model):
-    riddle = models.ForeignKey(Riddle, on_delete=models.CASCADE)
-    text = models.CharField(max_length=255)
-    correct = models.BooleanField(default=False)
-
-
 class Game(models.Model):
     size = models.IntegerField(default=8)
     first_player_checkers = models.CharField(max_length=100, default="0:0@0#0:2@0#1:1@0#2:0@0#2:2@0#3:1@0#4:0@0#4:2@0#5:1@0#6:0@0#6:2@0#7:1@0")
