@@ -25,7 +25,6 @@ urlpatterns = [
     url(r'^', include('ckeckers_api.urls')),
     url(r'^my_api/', include('ckeckers_api.urls')),
     url(r'^admin/', admin.site.urls),
-    url(r'^api/v0/', include('api_v0.urls')),
 ]
 
 # {"data": {"time": {"updated": "Dec 10, 2019 16:46:00 UTC", "updatedISO": "2019-12-10T16:46:00+00:00",

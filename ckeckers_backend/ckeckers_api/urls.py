@@ -23,7 +23,6 @@ urlpatterns = [
     url(make_turn, csrf_exempt(views.make_turn), name='make_turn'),
     url(register, csrf_exempt(views.register), name='register'),
     url(get_all_table, csrf_exempt(views.get_all_table), name='get_all_table'),
-    # url(login, views.log_in, name='login'),
     url(login, csrf_exempt(views.log_in), name='login'),
     url(is_logged_in, csrf_exempt(views.is_logged_in), name='is_logged_in'),
     url(logout, csrf_exempt(views.logout_view), name='logout'),
@@ -36,15 +35,10 @@ if DEBUG:
     delete_game = r'^command=delete_game&game_id=(?P<game_id>[0-9]+)$'
 
     urlpatterns.extend([
-        url(r'^$', views.index, name='index'),
-        url(detail, views.detail, name='detail'),
-        # url("test", views.test_working, name='test'),
-        url("testt", views.test_workingg, name='testt'),
-        url(answer, views.answer, name='answer'),
         url(delete_game, views.delete_game, name='delete_game'),
     ])
 
     router = DefaultRouter()
-    router.register(r'articles', views.GameViewSet)
+    router.register(r'Games', views.GameViewSet)
 
     urlpatterns.extend(router.urls)

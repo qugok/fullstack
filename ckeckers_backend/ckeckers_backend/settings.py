@@ -103,8 +103,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'ckeckers_api.apps.CkeckersApiConfig',
-    'api_v0.apps.ApiV0Config',
-    'articles.apps.ArticlesConfig',
     'rest_framework',
     'corsheaders',
 ]

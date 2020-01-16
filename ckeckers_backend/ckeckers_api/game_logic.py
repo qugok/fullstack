@@ -1,10 +1,3 @@
-from django.http.response import HttpResponse
-from django.shortcuts import get_object_or_404, render
-# from . import ReadyFirstPlayerSessionId
-from .models import Riddle, Option, Game
-
-from rest_framework import viewsets
-from .serializers import *
 import logging
 
 logger = logging.getLogger('myproject.custom')
