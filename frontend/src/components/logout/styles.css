@@ -1,0 +1,135 @@
+.main-page-back {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    /*background: #ffffff url("../../views/main/media/pattern_blank.png");*/
+    background: #ffffff url("../../media/paper_cutted.png");
+    background-size: auto 50%;
+    z-index: -1;
+}
+
+.main-page-front {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    z-index: 0;
+    width: 100%;
+}
+
+.new-game-button {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    /*color: white;*/
+    font-size: 2em;
+    background: none;
+    border: none;
+    border-bottom: 5px solid red;
+    transition-duration: 0.4s;
+    margin-top: 2em;
+    border-radius: 5px;
+}
+
+.more-rules-button {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 2em;
+    background: none;
+    border: none;
+    /*border-bottom: 5px solid red;*/
+    transition-duration: 0.4s;
+    /*margin-top: 2em;*/
+    border-radius: 5px;
+}
+
+
+.main-page-logo-part {
+    padding: 6em 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    min-height: 80vh;
+    width: 100%;
+
+}
+
+.logo-info-text {
+    font-size: 1em;
+    width: 45%;
+}
+
+.black-back {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background: rgba(0,0,0,0.8);
+}
+
+.main-page-about {
+    padding: 2em 0;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-page-about-text {
+    margin-top: 2em;
+    /*color: white;*/
+    color: aliceblue;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: lighter;
+    font-size: 1em;
+    width: 60%;
+    margin-bottom: 2em;
+}
+
+.login-text {
+    margin-top: 2em;
+    /*color: white;*/
+    /*color: aliceblue;*/
+    color: black;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: lighter;
+    font-size: 1em;
+    width: 60%;
+    margin-bottom: 2em;
+}
+
+@media(max-width:800px) {
+    .main-page-section-title {
+        font-size: 1.5em;
+    }
+}
+
+@media all and (min-width: 480px) {
+    .Login {
+        padding: 60px 0;
+    }
+
+    .Login form {
+        margin: 0 auto;
+        max-width: 320px;
+    }
+}
+
+.logout-part {
+    padding: 1em 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    /*min-height: 1vh;*/
+    width: 100%;
+
+}

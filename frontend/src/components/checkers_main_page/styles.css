@@ -1,0 +1,556 @@
+.example-enter {
+    opacity: 0.01; }
+
+.example-enter.example-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in; }
+
+.example-leave {
+    opacity: 1; }
+
+.example-leave.example-leave-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in; }
+
+.main-page-front {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    z-index: 0;
+    width: 100%; }
+
+.black-back {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8); }
+
+.main-page-header {
+    flex-direction: row;
+    justify-content: space-around;
+    min-height: 10vh; }
+
+.sponsor-img {
+    height: 6vh;
+    width: auto; }
+
+.main-page-logo-part {
+    padding: 6em 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    min-height: 80vh;
+    width: 100%; }
+
+.logo-img {
+    height: 30vh;
+    width: auto; }
+
+.logo-text {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 6em; }
+
+.logo-info-text {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 2em; }
+
+.register-form-button {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    background: none;
+    border: none;
+    border-bottom: 5px solid red;
+    transition-duration: 0.4s;
+    margin-top: 2em;
+    border-radius: 5px; }
+
+.register-form-button:hover {
+    background-color: #ff0000; }
+
+.main-page-about {
+    padding: 2em 0;
+    flex-direction: column;
+    justify-content: center; }
+
+.main-page-section-title {
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 2.5em;
+    text-align: center; }
+
+.main-page-about-text {
+    margin-top: 2em;
+    color: white;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: lighter;
+    font-size: 1em;
+    width: 50%;
+    margin-bottom: 2em; }
+
+.main-page-main-points-items {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center; }
+
+.main-page-point-separator {
+    border-left: 2px solid #ec6700;
+    margin: 1em 0; }
+
+.main-page-main-point {
+    display: flex;
+    font-family: "Open Sans", sans-serif;
+    font-weight: lighter;
+    font-size: 0.8em;
+    color: white; }
+
+.main-page-tracks {
+    padding: 2em 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%; }
+
+.main-page-tracks-items {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: flex-start;
+    align-items: stretch;
+    flex-wrap: wrap; }
+
+.main-page-track-item {
+    margin: 2em 2em 0;
+    width: 15vw;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    box-sizing: padding-box;
+    background-color: rgba(236, 103, 0, 0.4);
+    padding: 1em;
+    transition-duration: 0.4s; }
+
+.main-page-track-item:hover {
+    background-color: rgba(236, 103, 0, 0.7); }
+
+.main-page-track-item-title {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    color: black; }
+
+.white-text {
+    color: white; }
+
+.main-page-track-item-text {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    color: black;
+    margin: 1em 0; }
+
+.main-page-track-item-prize {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    color: black; }
+
+.prize-img {
+    height: 2em;
+    width: auto; }
+
+.bonus-img {
+    margin-top: 1em;
+    height: 6em;
+    width: auto; }
+
+.main-page-point-item {
+    margin: 2em 2em 0;
+    min-width: 220px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    box-sizing: padding-box;
+    background-color: rgba(236, 103, 0, 0.4);
+    padding: 1em;
+    transition-duration: 0.4s; }
+
+.main-page-point-item:hover {
+    background-color: rgba(236, 103, 0, 0.7); }
+
+.main-page-track-point-title {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: lighter;
+    font-size: 2em; }
+
+.main-page-deadlines {
+    padding: 2em 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center; }
+
+.main-page-deadlines-registration {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap; }
+
+.main-page-deadline-section {
+    margin-top: 3em;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap; }
+
+.calendar-img {
+    height: auto;
+    width: 5vw; }
+
+.main-page-deadline-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: lighter;
+    color: white;
+    padding: 1em 0;
+    background-color: rgba(236, 103, 0, 0.1);
+    border: 2px solid white;
+    min-width: 250px;
+    transition-duration: 0.4s; }
+
+.main-page-deadline-item:hover {
+    background-color: rgba(236, 103, 0, 0.3); }
+
+.main-page-deadline-date {
+    font-size: 1.5em;
+    color: #ec6700;
+    font-weight: bold; }
+
+.main-page-schedule-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: lighter;
+    color: white;
+    padding: 1em 0;
+    background-color: rgba(236, 103, 0, 0.1);
+    border: 2px solid white;
+    min-width: 500px;
+    min-height: 400px;
+    transition-duration: 0.4s; }
+
+.main-page-schedule-item:hover {
+    background-color: rgba(236, 103, 0, 0.3); }
+
+.schedule-item {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: flex-start; }
+
+.main-page-jury {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 2em 0;
+    width: 100%; }
+
+.main-page-jury-items {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 3em; }
+
+.jury-card {
+    margin-top: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    min-width: 300px;
+    max-width: 500px; }
+
+.jury-photo {
+    height: 12em;
+    width: auto;
+    margin-right: 2em; }
+
+.jury-description {
+    font-family: "Open Sans", sans-serif;
+    font-weight: lighter;
+    color: white;
+    align-self: flex-end; }
+
+.jury-name {
+    font-size: 1.5em; }
+
+.jury-work {
+    font-size: 1em; }
+
+.main-page-map {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 3em 0; }
+
+.main-page-adress-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    padding: 1em;
+    border: 2px solid white;
+    background-color: rgba(236, 103, 0, 0.4); }
+
+.location-img {
+    height: 4em;
+    width: auto; }
+
+.main-page-adress-text {
+    margin-top: 1em;
+    font-family: "Open Sans", sans-serif;
+    font-weight: lighter;
+    color: white; }
+
+.main-page-map-component {
+    margin: 2em 0; }
+
+iframe, object, embed {
+    max-width: 100%;
+    max-height: 50vh;
+    border: 2px solid white; }
+
+.main-page-footer {
+    padding: 1em 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center; }
+
+.main-page-footer-text {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold; }
+
+.register-form-advice {
+    width: 80%; }
+
+textarea {
+    width: 90%;
+    background: none;
+    font-family: "Open Sans", sans-serif;
+    font-weight: lighter;
+    color: white;
+    border: 2px solid white; }
+
+@media (max-width: 800px) {
+    .main-page-deadline-section {
+        flex-direction: column; }
+    .calendar-img {
+        margin: 2em 0; }
+    .main-page-section-title {
+        font-size: 1.5em; }
+    .logo-text {
+        font-size: 4em; }
+    .main-page-logo-part {
+        padding: 2em 0; }
+    .logo-info-text {
+        font-size: 1em; }
+    .main-page-about-text {
+        width: 100%; }
+    .main-page-back {
+        position: fixed;
+        top: -20vh; }
+    .main-page-track-item {
+        margin: 1em 1em 0;
+        min-width: 110px;
+        padding: 0.5em; }
+    .main-page-track-item-title {
+        font-size: 0.9em; }
+    .main-page-track-item-text {
+        font-size: 0.7em; }
+    .main-page-track-item-prize {
+        font-size: 1em; }
+    .prize-img {
+        height: 1em;
+        width: auto; }
+    .bonus-img {
+        height: 3em;
+        width: auto; }
+    .main-page-deadlines-calendar {
+        width: 100%; }
+    .calendar-img {
+        width: 20vw; }
+    .main-page-schedule-item {
+        min-width: 300px;
+        min-height: 250px;
+        font-size: 0.6em; }
+    .jury-photo {
+        height: 6em;
+        width: auto;
+        margin: 0 1em; }
+    .jury-name {
+        font-size: 1.5em; }
+    .jury-work {
+        font-size: 0.8em; } }
+
+
+
+.main-page-back {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    background: #ffffff url("../../media/paper_cutted.png");
+    background-size: auto 50%;
+    z-index: -1;
+}
+
+.main-page-front {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    z-index: 0;
+    width: 100%;
+}
+
+.new-game-button {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    /*color: white;*/
+    font-size: 2em;
+    background: none;
+    border: none;
+    border-bottom: 5px solid red;
+    transition-duration: 0.4s;
+    margin-top: 2em;
+    border-radius: 5px;
+}
+
+.more-rules-button {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 2em;
+    background: none;
+    border: none;
+    /*border-bottom: 5px solid red;*/
+    transition-duration: 0.4s;
+    /*margin-top: 2em;*/
+    border-radius: 5px;
+}
+
+
+.main-page-logo-part {
+    padding: 6em 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    min-height: 80vh;
+    width: 100%;
+
+}
+
+.logo-info-text {
+    font-size: 1em;
+    width: 45%;
+}
+
+.black-back {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background: rgba(0,0,0,0.8);
+}
+
+.main-page-about {
+    padding: 2em 0;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-page-about-text {
+    margin-top: 2em;
+    /*color: white;*/
+    color: aliceblue;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: lighter;
+    font-size: 1em;
+    width: 60%;
+    margin-bottom: 2em;
+}
+
+
+@media(max-width:800px) {
+    .main-page-section-title {
+        font-size: 1.5em;
+    }
+}
